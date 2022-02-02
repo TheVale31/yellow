@@ -1,0 +1,158 @@
+ *{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+} 
+body{
+    width: 1024px;
+    background-color: aquamarine;
+    border:1px solid #000;
+}
+header{
+    background-color:rgba(255, 255, 255, 0.753);
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.separador{
+    display: inline-block;
+    height: 50px;
+    vertical-align: top;
+   
+}
+
+.boton{
+    color: #fff;
+    border-radius: 4px;
+    background-color: blue;
+    margin-left: 25%;
+    height: 25px;
+    margin-top: 1%;
+    padding-right: 5px;
+}
+ #search-input{
+  display: block;
+  margin-left:30%;
+  border-radius: 10px;
+}
+#input-src{
+    border-radius: 5px;
+}
+#menu-bar{
+    width: 85%;
+    margin-left: 15%;
+}
+.menu-option{
+    color: gray;
+    text-decoration: none;
+    margin-left: 5%
+}
+#content-wrapper{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    height: 70vh;
+}
+#main-container{
+    background-color: blue;
+    width: 50vh;
+   
+    background-color: lightblue;
+    border: 4px solid gray;
+ 
+}
+section{
+    text-transform: capitalize;
+    color: #fff;
+    background-color: rgb(26, 26, 236);
+}
+label{
+    color: #000;
+    font-size: 1.4rem;
+}
+h4{
+    color: blue;
+    text-transform: capitalize;
+}
+.btn-form {
+   background-color: rgba(155, 143, 143, 0.705);
+   width: 110px;
+   padding: 2%;
+   border-radius: 8px;
+   color:#fff;
+   text-transform: capitalize;
+
+}
+.record{
+    color: blue;
+    text-transform: capitalize;
+    
+}
+.btn-separador{
+    margin-top: 10px;
+    text-transform: uppercase;
+    font-size: 1.2rem;
+    color:#fff ;
+    width: 288px;
+    padding: 2%;
+    height: 60px;
+    background-color: rgb(23, 23, 201) ;
+    border: 2px solid rgb(185, 179, 179) ;
+   
+}
+.main-img{
+    margin-left: -60px;
+
+}
+section{
+    background: lightblue;
+}
+.nuevas{
+    color: #000;
+    font-size: 1.2rem;
+}
+.descripcion {
+    color: rgb(32, 32, 248);
+    display:inline-block;
+    
+
+}
+.mini-box-list{
+    background-color: darkblue;
+    height: 150px ;
+    display: flex ;
+    padding :1%
+}
+.mini-box{
+ background-color: white;
+ border: 3px solid grey;
+ display: flex;
+ flex-direction: column;
+ flex-wrap: wrap;
+ padding:5px ;
+ width: 100%;
+ 
+}
+.mini-box img{
+    width: 30%;
+    height: 100%;
+}
+h5{
+    color: #000;
+    text-transform: uppercase;
+   
+}
+.txt{
+    width: 70%;
+    color: rgb(47, 47, 235);
+}
+footer{
+    background-color: lavender;
+}
+.footer-option{
+    color: gray;
+    text-decoration: none;
+    margin-left: 5%;
+   
+
+}
